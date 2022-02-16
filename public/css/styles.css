@@ -1,0 +1,24 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.form-group{
+  margin: 10px 0;
+}
+
+.secret_jumb{
+  margin-top: 4rem;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
