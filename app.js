@@ -35,8 +35,7 @@ const userSchema = new mongoose.Schema({
 });
 
 //Add encryption to our schema
-const secret = "This is going to be a lot of fun!";
-userSchema.plugin(encrypt, {secret: secret, encryptedFields: ['password']});
+userSchema.plugin(encrypt, {secret: process.env.SECRET, encryptedFields: ['password']});
 
 //Create a Model
 const User = mongoose.model("User", userSchema);
